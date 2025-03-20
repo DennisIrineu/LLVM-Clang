@@ -104,43 +104,43 @@ Para remover o executável, arquivos de cobertura e relatórios, use:
 make clean
 ```
 
-Análise da Ferramenta
-Pontos Positivos
-Precisão nos Relatórios de Cobertura:
+Análise do instrumento
+Pontos fortes
+Relatórios de cobertura precisos:
 
-O LLVM + Clang gera relatórios detalhados, mostrando exatamente quais linhas de código foram executadas.
+Mostra exatamente quais linhas de código foram atingidas.
 
-Integração com o Ecossistema LLVM:
+Integração com LLVM:
 
-As ferramentas llvm-profdata e llvm-cov são altamente eficientes e funcionam perfeitamente com o Clang.
+Ferramentas como llvm-profdata e llvm-cov funcionam perfeitamente com o Clang.
 
-Facilidade de Uso:
+Automação via Makefile:
 
-O Makefile automatiza todo o processo, desde a compilação até a geração de relatórios.
+Facilita a compilação, execução e geração de relatórios.
 
-Suporte a Padrões Modernos:
+Suporte a padrões modernos:
 
-Clang oferece suporte a padrões recentes das linguagens C e C++, além de mensagens de erro claras e úteis.
+Compatível com os padrões mais recentes de C e C++.
 
-Portabilidade:
+Multiplataforma:
 
-Funciona em várias plataformas, incluindo Linux, macOS e Windows (com WSL).
+Funciona em Linux, macOS e Windows (com WSL).
 
-Pontos Negativos
-Curva de Aprendizado:
+Fraquezas
+Curva de aprendizado:
 
-Configurar e usar as ferramentas do LLVM pode ser desafiador para iniciantes.
+A configuração inicial pode ser difícil para um novato.
 
-Dependência de Ferramentas Externas:
+Dependência de ferramenta externa:
 
-Para gerar relatórios em HTML, é necessário usar llvm-cov, que pode não ser tão intuitivo quanto outras ferramentas de cobertura.
+Depende do llvm-cov para relatórios HTML que podem não ser intuitivos.
 
-Documentação Técnica:
+Documentação técnica:
 
-A documentação do LLVM é abrangente, mas pode ser densa e difícil de seguir para quem não está familiarizado com compiladores.
+A documentação é exaustiva, mas pode ser difícil de entender.
 
-Compatibilidade com Projetos Legados:
+Compatibilidade com legado:
 
-Em alguns casos, projetos legados podem exigir ajustes para funcionar corretamente com o Clang.
+Pode exigir ajustes para funcionar com código legado.
 
 Segue [vídeo](https://www.youtube.com/watch?v=MNp0pumkarQ) demonstrando como fazer o make e explicações
