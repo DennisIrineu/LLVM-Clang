@@ -142,3 +142,5 @@ A documentação do LLVM é abrangente, mas pode ser densa e difícil de seguir 
 Compatibilidade com Projetos Legados:
 
 Em alguns casos, projetos legados podem exigir ajustes para funcionar corretamente com o Clang.
+
+Segue [vídeo](https://www.youtube.com/watch?v=MNp0pumkarQ) demonstrando como fazer o make e explicações
