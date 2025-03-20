@@ -1,8 +1,9 @@
+
 Projeto de Exemplo: Cobertura de Código com LLVM + Clang
 Este projeto demonstra como usar o LLVM + Clang para gerar relatórios de cobertura de código em projetos escritos em C. Ele inclui exemplos de código modularizados e um Makefile para automatizar a compilação, execução e geração de relatórios.
 
 Estrutura do Projeto
-Copy
+  
 exemple_llvm_clang/
 ├── src/
 │   ├── main.c
@@ -41,60 +42,60 @@ Make: Ferramenta para automatizar a compilação e execução do projeto.
 Instalação no Linux (Ubuntu/Debian)
 Instale o Clang e o LLVM:
 
-bash
-Copy
+  
+ 
 sudo apt update
 sudo apt install clang llvm
 Instale o Make:
 
-bash
-Copy
+  
+  
 sudo apt install make
 Verifique a instalação:
 
-bash
-Copy
+  
+  
 clang --version
 llvm-profdata --version
 llvm-cov --version
 Como Usar o Projeto
 Clone o repositório:
 
-bash
-Copy
+  
+  
 git clone https://github.com/seu-usuario/exemple_llvm_clang.git
 cd exemple_llvm_clang
 Compile o projeto:
 
-bash
-Copy
+  
+  
 make all
 Execute o programa:
 
-bash
-Copy
+  
+  
 ./exemple_llvm_clang
 Gere o relatório de cobertura no terminal:
 
-bash
-Copy
+  
+  
 make coverage
 Gere o relatório de cobertura em HTML:
 
-bash
-Copy
+  
+  
 make coverage-html
 Visualize o relatório HTML:
 Abra o arquivo coverage_report.html no navegador:
 
-bash
-Copy
+  
+  
 xdg-open coverage_report.html
 Limpe os arquivos gerados:
 Para remover o executável, arquivos de cobertura e relatórios, use:
 
-bash
-Copy
+  
+  
 make clean
 Análise da Ferramenta
 Pontos Positivos
