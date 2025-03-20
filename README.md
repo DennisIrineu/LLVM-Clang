@@ -1,5 +1,5 @@
 
-Projeto de Exemplo: Cobertura de Código com LLVM + Clang
+# Projeto de Exemplo: Cobertura de Código com LLVM + Clang
 Este projeto demonstra como usar o LLVM + Clang para gerar relatórios de cobertura de código em projetos escritos em C. Ele inclui exemplos de código modularizados e um Makefile para automatizar a compilação, execução e geração de relatórios.
 
 Estrutura do Projeto
@@ -16,16 +16,16 @@ Estrutura do Projeto
         ├── Makefile
         ├── README.md
 ```
-Sobre o LLVM + Clang
+# Sobre o LLVM + Clang
 
-O que é o LLVM?
+### O que é o LLVM?
 O LLVM (Low-Level Virtual Machine) é um conjunto de ferramentas para a construção de compiladores e ferramentas de análise estática. Ele fornece uma infraestrutura modular para otimização e geração de código, além de ferramentas como llvm-profdata e llvm-cov para análise de cobertura de código.
 
-O que é o Clang?
+### O que é o Clang?
 O Clang é o front-end do LLVM para as linguagens C, C++ e Objective-C. Ele é responsável por analisar o código fonte, gerar uma representação intermediária (IR) e integrar-se com as ferramentas do LLVM para otimização e geração de código.
 
 
-Tutorial: Como Compilar e Usar o Projeto
+## Tutorial: Como Compilar e Usar o Projeto
 Pré-requisitos
 Clang: O compilador front-end do LLVM para C, C++ e Objective-C.
 
@@ -55,33 +55,33 @@ clang --version
 llvm-profdata --version
 llvm-cov --version
 ```
-Como Usar o Projeto
-Clone o repositório:
+## Como Usar o Projeto
+### Clone o repositório:
 ```bash 
   
   
 git clone https://github.com/seu-usuario/exemple_llvm_clang.git
 cd exemple_llvm_clang
 ```
-Compile o projeto:
+### Compile o projeto:
 
   
 ```bash
 make all
 ```
-Execute o programa:
+## Execute o programa:
 
   
 ```bash
 ./exemple_llvm_clang
 ```
-Gere o relatório de cobertura no terminal:
+### Gere o relatório de cobertura no terminal:
 
 ```bash
   
 make coverage
 ```
-Gere o relatório de cobertura em HTML:
+### Gere o relatório de cobertura em HTML:
 
 ```bash  
   
@@ -104,8 +104,8 @@ Para remover o executável, arquivos de cobertura e relatórios, use:
 make clean
 ```
 
-Análise do instrumento
-Pontos fortes
+# Análise do instrumento
+### Pontos fortes
 Relatórios de cobertura precisos:
 
 Mostra exatamente quais linhas de código foram atingidas.
@@ -126,7 +126,7 @@ Multiplataforma:
 
 Funciona em Linux, macOS e Windows (com WSL).
 
-Fraquezas
+### Fraquezas
 Curva de aprendizado:
 
 A configuração inicial pode ser difícil para um novato.
@@ -143,4 +143,4 @@ Compatibilidade com legado:
 
 Pode exigir ajustes para funcionar com código legado.
 
-Segue [vídeo](https://www.youtube.com/watch?v=MNp0pumkarQ) demonstrando como fazer o make e explicações
+# Segue [vídeo](https://www.youtube.com/watch?v=MNp0pumkarQ) demonstrando como fazer o make e explicações
